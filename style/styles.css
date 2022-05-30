@@ -1,0 +1,38 @@
+a {
+    text-decoration: none;
+}
+
+.banner {
+    width: 100%;
+    background-color: #F2E9D8;
+}
+
+.banner-top {
+    padding: 31px 320px;
+}
+
+.menu {
+    float: right;
+}
+
+.menu ul {
+    display: flex;
+    gap: 30px;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.menu ul li a {
+    color: #000;
+}
+
+.menu ul li:last-child {
+    margin-left: 10px;
+    background-color: #D97652;
+    padding: 0 30px;
+    border-radius: 40px;
+}
+
+.menu ul li:last-child a {
+    color: #fff;
+}
