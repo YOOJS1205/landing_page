@@ -1,5 +1,6 @@
 a {
     text-decoration: none;
+    color: #000;
 }
 
 .banner {
@@ -8,7 +9,7 @@ a {
 }
 
 .banner-top {
-    padding: 31px 320px;
+    padding: 31px 200px;
 }
 
 .menu {
@@ -22,17 +23,138 @@ a {
     line-height: 40px;
 }
 
-.menu ul li a {
-    color: #000;
-}
-
-.menu ul li:last-child {
-    margin-left: 10px;
+.button__download {
     background-color: #D97652;
     padding: 0 30px;
     border-radius: 40px;
+    border: none;
+    line-height: 40px;
+    font-size: 16px;
 }
 
-.menu ul li:last-child a {
+.button__download a {
     color: #fff;
+}
+
+.banner-main__download {
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.banner-main {
+    padding: 260px 200px 0;
+    display: flex;
+}
+
+.banner-main__right img {
+    margin-top: -240px;
+    margin-left: 160px;
+}
+
+.banner-main__title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    width: 737px;
+}
+
+.banner-main__text {
+    margin-top: 40px;
+    width: 440px;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.banner-main__download {
+    margin-top: 40px;
+}
+
+.main {
+    padding: 0 200px;
+}
+
+.main-top {
+    display: flex;
+    padding-top: 80px;
+    gap: 110px;
+}
+
+.main-top__right {
+    padding-top: 120px;
+}
+
+.main-top__right-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+}
+
+.main-top__right-text {
+    margin-top: 30px;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.main-bottom {
+    padding-top: 120px;
+    text-align: center;
+}
+
+.main-bottom__title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    color: #D97652;
+}
+
+.main-bottom__text {
+    font-size: 16px;
+    line-height: 20px;
+    padding: 40px 250px 0;
+}
+
+.main-bottom__text strong {
+    color: #D97652;
+}
+
+.main-bottom__images {
+    padding-top: 80px;
+}
+
+.main-bottom__images img {
+    width: 424px;
+}
+
+.main-bottom__detail {
+    padding: 50px 170px 0;
+    text-align: left;
+}
+
+.main-bottom__detail-text {
+    float: left;
+    width: 700px;
+}
+
+.main-bottom__detail-button {
+    float: left;
+    margin-left: 50px;
+}
+
+.bottom {
+    margin-top: 196px;
+    background-image: url('../images/img_5.png');
+    height: 340px;
+    background-position: center;
+}
+
+.footer {
+    padding: 45px 200px;
+}
+
+.footer img {
+    height: 70px;
+}
+
+.footer-social {
+    float: right;
 }
