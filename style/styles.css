@@ -109,7 +109,7 @@ a {
 
 .main-bottom__text {
     font-size: 16px;
-    line-height: 20px;
+    line-height: 21px;
     padding: 40px 250px 0;
 }
 
@@ -145,6 +145,31 @@ a {
     background-image: url('../images/img_5.png');
     height: 340px;
     background-position: center;
+    position: relative;
+}
+
+.subscribe {
+    display: flex;
+    background-color: #263140;
+    border-radius: 30px;
+    width: 1280px;
+    padding: 50px 58px;
+    position: absolute;
+    top: -90px;
+    left: 10%;
+}
+
+.subscribe-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    color: #fff;
+}
+
+.subscribe-text {
+    font-size: 14px;
+    line-height: 18px;
+    color: #F2E9D8;
 }
 
 .footer {
