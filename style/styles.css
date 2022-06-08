@@ -8,11 +8,10 @@ button {
     cursor: pointer;
 }
 
-
 /* 탑 배너 관련 스타일 */
 .orange {
     background-color: #F2E9D8;
-    transition: all 0.2s;
+    transition: all 0.3s;
 }
 
 .fix {
@@ -28,6 +27,18 @@ button {
 
 .no-scroll {
     overflow: hidden;
+}
+
+/* 스크롤 버튼 관련 스타일 */
+.scroll {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    position: fixed;
+    z-index: 20;
+    bottom: 160px;
+    right: 24px;
 }
 
 .banner {
@@ -156,6 +167,7 @@ button {
 .main-bottom__detail {
     padding: 50px 170px 0;
     text-align: left;
+    margin: 0 auto;
 }
 
 .main-bottom__detail-text {
@@ -174,18 +186,20 @@ button {
     height: 340px;
     background-position: center;
     position: relative;
+    padding: 0 200px;
 }
 
 .subscribe {
     display: flex;
+    gap: 140px;
     justify-content: space-between;
     background-color: #263140;
     border-radius: 30px;
-    width: 1280px;
     padding: 50px 58px;
+    margin: 0 auto;
     position: absolute;
     top: -90px;
-    left: 10%;
+    left: 210px;
 }
 
 .subscribe-title {
@@ -208,6 +222,11 @@ button {
     font-size: 16px;
     line-height: 20px;
     color: #767676;
+    border: none;
+}
+
+.subscribe-input:focus {
+    outline: none;
 }
 
 .subscribe-button {
